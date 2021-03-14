@@ -14,7 +14,7 @@ public class HomeController {
   @RequestMapping("/")
   public String home() {
     System.out.println("Home page requested");
-    return "index.jsp";
+    return "index";
   }
 
   @RequestMapping("add")
@@ -29,7 +29,7 @@ public class HomeController {
     // en prenant en parameter le nom de la vue souhaité
     // et les données
     ModelAndView mv = new ModelAndView();
-    mv.setViewName("result.jsp");
+    mv.setViewName("result");
 
     int res = nb1 + nb2;
     mv.addObject("res", res);
