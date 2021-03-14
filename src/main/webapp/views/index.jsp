@@ -8,12 +8,12 @@ pageEncoding="ISO-8859-1"%>
   </head>
   <body>
     Welcome to My app
-    <form action="add">
-      <label>Enter the first number</label>
-      <input type="text" name="nb1" />
+    <form action="addAlien">
+      <label>Enter id</label>
+      <input type="text" name="aid" />
       <br />
-      <label>Enter the second number</label>
-      <input type="text" name="nb2" />
+      <label>Enter your name</label>
+      <input type="text" name="aname" />
       <input type="submit" />
     </form>
   </body>

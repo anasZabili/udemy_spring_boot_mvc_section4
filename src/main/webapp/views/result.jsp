@@ -7,6 +7,6 @@ pageEncoding="ISO-8859-1" isELIgnored="false"%>
     <title>Insert title here</title>
   </head>
   <body>
-    <h1>The result is: ${res}</h1>
+    <h1>The result is: ${al}</h1>
   </body>
 </html>
