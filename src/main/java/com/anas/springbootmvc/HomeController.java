@@ -54,6 +54,17 @@ public class HomeController {
     return "result";
   }
 
+  @ModelAttribute
+  // model attribut avant de call des request mapping
+  // spring va contruit un model contenenant les valeur specifié dans le
+  // notre model
+  // ModelAttribut permet donc de set note model avec des valeur
+  // predefini avant que sping fasse toute autre action
+  public void modelData(Model m) {
+    m.addAttribute("name", "Aliens");
+  } 
+
+
   @RequestMapping("addAlien")
   // model cree une intance de alien avec les attribut set au valeur
   // recu en appelant les setter du meme nom que les attributs

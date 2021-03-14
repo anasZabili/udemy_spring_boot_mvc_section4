@@ -8,5 +8,6 @@ pageEncoding="ISO-8859-1" isELIgnored="false"%>
   </head>
   <body>
     <h1>The result is: ${al}</h1>
+    <h2>Welcome Back ${name}</h2>
   </body>
 </html>
